@@ -36,8 +36,8 @@ ORDER BY
 Key Takeaways:
   -  Data Dominance: Nearly half of all postings (48.52%), Data Analyst is overwhelmingly the 
       most accessible and heavily requested internship role. Combined demand for DA, DS, and DE reaches 7,667 positions (87.75%).
-      There high corporate interest in predictive modeling and advanced analytics in the talent pipeline.
+      There is high corporate interest in predictive modeling and advanced analytics in the talent pipeline.
 
-  - Specialized vs Generealist engineering gap: Specialized infrastructure/advanced AI roles maintain lower internship volume,
+  - Specialized vs Generalist engineering gap: Specialized infrastructure/advanced AI roles maintain lower internship volume,
       suggesting companies prefer hiring senior/full-time talent for complex cloud architecture and ML ops rather than interns.
 */

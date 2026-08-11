@@ -1,7 +1,7 @@
 /*
     Data Scope: July 2024 - May 2025 (Summer 2025 Internship Cycle)
     Sample Size: 1,615,930 Job Listings Analyzed
-    Objective : Evaluate the most requested technical skills and tool categories for intern candidates 
+    Objective: Evaluate the most requested technical skills and tool categories for intern candidates 
 */
 
 SELECT 
@@ -44,12 +44,12 @@ Result:
   10 rows                               3 columns
 
 Key Takeaways:
-  - Python & SQL fundementals: Python is the single most requested skill (4,365 mentions), underscoring its 
+  - Python & SQL fundamentals: Python is the single most requested skill (4,365 mentions), underscoring its 
       versatility across data analysis, machine learning, and data engineering. SQL follows closely as the core data 
       querying standard. Together, Python + SQL form the universal baseline for ~45.3% of all top skill requirements.
   - Business Analysis & Visualization: Excel remains resilient as the #3 most requested skill (2,272 mentions), proving 
       that spreadsheet capabilities remain essential even for advanced data teams. Tableau slightly edges out 
-      Power BI (1,483 vs. 1,302 mentions, a ~13.9% margin),though proficiency in either major BI tool covers the vast majority of 
+      Power BI (1,483 vs. 1,302 mentions, a ~13.9% margin), though proficiency in either major BI tool covers the vast majority of 
       enterprise dashboarding needs.
   - Cloud Ecosystems: Azure (943) and AWS (918) sit in a near tie, capturing a combined ~10.9% share. This highlights a shift 
       toward cloud-native workflows for interns; familiarity with at least one primary cloud provider provides a distinct competitive edge.

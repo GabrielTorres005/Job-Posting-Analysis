@@ -14,8 +14,8 @@ A SQL project analyzing different market trends for tech internships using real-
 If you have a minute, review these:
 
 [Top Demanded Intern Roles (SQL)](01_top_demanded_intern_role.sql) - Demand analysis with multi-table joins.  
-[Top Demanded Intern Skills Query (SQL)](02_top_demanded_intern_skills.sql) - Salary analysis with aggregation.  
-[Most Optimal Skills (SQL)](03_optimal_skills.sql) - Combined demand/salary optimization query.
+[Top Demanded Intern Skills (SQL)](02_top_demanded_intern_skills.sql) - Salary analysis with aggregation.  
+[Most Optimal Skills (SQL)](03_top_optimal_skills.sql) - Combined demand/salary optimization query.
 
 ## Problem & Context
 
@@ -27,7 +27,7 @@ Job market analysis needs to answer questions like:
 
 This project analyzes a **data warehouse** built using a star schema design. The warehouse structure consists of:
 
-![Database Schema](../Job_Posting_Analysis/images/data_jobs%28Schema%29.png)
+![Database Schema](/images/data_jobs%28Schema%29.png)
 
 - **Fact Table:** `job_posting_fact` - Central table containing job posting details (job titles, locations, salaries, dates, etc.)
 - **Dimensional Tables:**
@@ -51,7 +51,7 @@ By querying across these interconnected tables, I extracted insights about skill
 
 1. **[Top Demanded Intern Roles (SQL)](01_top_demanded_intern_role.sql)** - Identifies the most in-demand internship roles during the summer 2025 recruitment cycle.
 2. **[Top Demanded Skills Query (SQL)](02_top_demanded_intern_skills.sql)** - Analyzes the top 10 most demanded skills by recruiters for intern new hires.
-3. **[Most Optimal Skills (SQL)](03_optimal_skills.sql)** - Calculates an optimal score using the natural log of demand combined with median salary to identify the most valuable skills to learn.
+3. **[Most Optimal Skills (SQL)](03_top_optimal_skills.sql)** - Calculates an optimal score using the natural log of demand combined with median salary to identify the most valuable skills to learn.
 
 ## Key Takeaways: Tech & Data Skills in the AI Era
 
